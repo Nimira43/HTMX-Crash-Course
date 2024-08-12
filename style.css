@@ -143,3 +143,11 @@ footer {
   text-align: center; 
   font-size: 25px;
 }
+
+.section-2 .animate {
+  transform: translateX(100%);
+}
+
+.section-2.show-animate .animate {
+  transform: translateX(0);
+}
