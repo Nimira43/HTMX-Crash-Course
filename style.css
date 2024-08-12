@@ -13,7 +13,7 @@
   --light-2: #f0e68c;
   --light-3: #a5d4e7;
   --light-4: #faeace;
-  --dark-1: #111;
+  --dark-1: rgb(17, 17, 17);
   --dark-2: #333;
   --dark-3: #ff4500;
   --dark-4: #8b0000;
@@ -54,8 +54,9 @@ section p {
 .section-1 h1,
 .section-1 p {
   font-family: 'Fredericka the Great', serif;
-  background-color: var(--light-1);
-  color: var(--dark-3);
+  background-color: var(--dark-3);
+  color: var(--light-1);
+  letter-spacing: 2px;
 }
 
 .section-2 {
@@ -99,8 +100,8 @@ section p {
 .section-4 h1,
 .section-4 p {
   font-family: 'Cormorant Garamond', serif;
-  background-color: var(--light-2);
-  color: var(--dark-1);
+  background-color: var(--dark-1);
+  color: var(--light-2);
 }
 
 .section-5 {  
