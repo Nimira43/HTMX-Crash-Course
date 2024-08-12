@@ -11,19 +11,100 @@
   --light-2: #f0e68c;
   --light-3: #a5d4e7;
   --light-4: #faeace;
-  --light-5: #eee;
   --dark-1: #111;
   --dark-2: #333;
   --dark-3: #ff4500;
-  --dark-4: #008080;
-  --dark-5: #8b0000;
+  --dark-4: #8b0000;
 }
 
-section {
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
   overflow: hidden;
+}
+
+section h1,
+section p {
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+section h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 25px;
+}
+
+.section-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)),
+    url('./images/bg1.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.section-1 h1,
+.section-1 p {
+  background-color: var(--light-1);
+  color: var(--dark-3);
+}
+
+.section-2 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg2.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.section-2 h1,
+.section-2 p {
+  background-color: var(--light-3);
+  color: var(--dark-2);
+}
+
+.section-3 { 
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg3.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.section-3 h1,
+.section-3 p {
+  background-color: var(--light-4);
+  color: var(--dark-4);
+}
+
+.section-4 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg4.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.section-4 h1,
+.section-4 p {
+  background-color: var(--light-2);
+  color: var(--dark-1);
+}
+
+.section-5 {  
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.7)),
+    url('./images/bg5.jpg') no-repeat center;
+  background-size: cover;
 }
