@@ -103,8 +103,17 @@ section p {
 
 .section-5 {  
   background: linear-gradient(
-    rgba(0, 0, 0, 0.8),
-    rgba(0, 0, 0, 0.7)),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.2)),
     url('./images/bg5.jpg') no-repeat center;
   background-size: cover;
+}
+
+.section-5 .images {
+  display: flex;
+  gap: 40px;
+}
+
+.section-5 .images img {
+  max-width: 350px;
 }
